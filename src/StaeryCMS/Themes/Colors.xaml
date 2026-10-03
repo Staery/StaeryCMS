@@ -53,7 +53,6 @@
 
   <!-- Typography -->
   <FontFamily x:Key="UiFont">Segoe UI Variable Text, Segoe UI</FontFamily>
-  <FontFamily x:Key="IconFont">Segoe Fluent Icons, Segoe MDL2 Assets</FontFamily>
   <FontFamily x:Key="CodeFont">Cascadia Mono, Consolas, Courier New</FontFamily>
 
 </ResourceDictionary>

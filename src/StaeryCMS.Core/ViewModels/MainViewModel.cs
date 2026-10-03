@@ -71,10 +71,10 @@ public sealed partial class MainViewModel : ObservableObject
 
         StatusFilters =
         [
-            new StatusFilterOption("All entries", "", null),
-            new StatusFilterOption("Published", "", ContentStatus.Published),
-            new StatusFilterOption("Drafts", "", ContentStatus.Draft),
-            new StatusFilterOption("Archived", "", ContentStatus.Archived),
+            new StatusFilterOption("All entries", "Icon.Library", null),
+            new StatusFilterOption("Published", "Icon.Published", ContentStatus.Published),
+            new StatusFilterOption("Drafts", "Icon.Draft", ContentStatus.Draft),
+            new StatusFilterOption("Archived", "Icon.Archive", ContentStatus.Archived),
         ];
 
         SortOptions =

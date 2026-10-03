@@ -5,7 +5,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Authors>Anton Selkin</Authors>
     <Product>StaeryCMS</Product>
-    <Copyright>Copyright © 2025 Anton Selkin</Copyright>
+    <Copyright>Copyright © 2026 Anton Selkin</Copyright>
     <Version>1.0.0</Version>
     <!-- Lets the WPF project restore and build on non-Windows CI agents. -->
     <EnableWindowsTargeting>true</EnableWindowsTargeting>

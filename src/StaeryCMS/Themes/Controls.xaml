@@ -5,9 +5,11 @@
 
   <ResourceDictionary.MergedDictionaries>
     <ResourceDictionary Source="Colors.xaml" />
+    <ResourceDictionary Source="Icons.xaml" />
   </ResourceDictionary.MergedDictionaries>
 
   <!-- Converters -->
+  <conv:ResourceLookupConverter x:Key="ResourceLookup" />
   <conv:VisibilityConverter x:Key="VisibleWhen" />
   <conv:VisibilityConverter x:Key="CollapsedWhen" Invert="True" />
   <conv:StatusBrushConverter x:Key="StatusStrongBrush"
@@ -33,10 +35,27 @@
   </DataTemplate>
 
   <!-- Text -->
-  <Style x:Key="Icon" TargetType="TextBlock">
-    <Setter Property="FontFamily" Value="{StaticResource IconFont}" />
-    <Setter Property="FontSize" Value="14" />
+  <!-- Icons are 24×24 geometries scaled down; by default they take the foreground of the button or list item they sit in. -->
+  <Style x:Key="Icon" TargetType="Path">
+    <Setter Property="Width" Value="24" />
+    <Setter Property="Height" Value="24" />
+    <Setter Property="Stretch" Value="None" />
     <Setter Property="VerticalAlignment" Value="Center" />
+    <Setter Property="SnapsToDevicePixels" Value="True" />
+    <Setter Property="Fill" Value="{Binding Foreground, RelativeSource={RelativeSource AncestorType=Control}}" />
+    <Setter Property="LayoutTransform">
+      <Setter.Value>
+        <ScaleTransform ScaleX="0.7" ScaleY="0.7" />
+      </Setter.Value>
+    </Setter>
+  </Style>
+
+  <Style x:Key="LargeIcon" TargetType="Path" BasedOn="{StaticResource Icon}">
+    <Setter Property="LayoutTransform">
+      <Setter.Value>
+        <ScaleTransform ScaleX="1.4" ScaleY="1.4" />
+      </Setter.Value>
+    </Setter>
   </Style>
 
   <Style x:Key="PageTitle" TargetType="TextBlock">

@@ -200,4 +200,4 @@ The tests in `tests/StaeryCMS.Core.Tests` cover:
 
 ## 📄 License
 
-[MIT](LICENSE) © 2025 Anton Selkin
+[MIT](LICENSE) © 2026 Anton Selkin

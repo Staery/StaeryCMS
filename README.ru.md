@@ -205,4 +205,4 @@ dotnet publish src/StaeryCMS -c Release -r win-x64 --self-contained -p:PublishSi
 
 ## 📄 Лицензия
 
-[MIT](LICENSE) © 2025 Anton Selkin
+[MIT](LICENSE) © 2026 Anton Selkin
