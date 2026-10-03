@@ -13,6 +13,8 @@
 ![MVVM](https://img.shields.io/badge/pattern-MVVM-6366F1)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 
+**English** · [Русский](README.ru.md)
+
 </div>
 
 ---
