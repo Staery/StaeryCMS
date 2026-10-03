@@ -39,7 +39,13 @@ persistence and a hand-made UI theme.
 | 🛡 **No lost work** | Asks you to save, discard or cancel when you switch entries or close the app with unsaved changes |
 | ⌨️ **Keyboard-first** | `Ctrl+N`, `Ctrl+S`, `Ctrl+P`, `Ctrl+F`, `Ctrl+Shift+E` |
 
-<!-- Add a screenshot of the running app here, e.g. docs/screenshot.png -->
+## 📸 Screenshots
+
+![Editor with the content library](docs/screenshots/editor.png)
+
+| Filtering by status | Exported static site |
+|---|---|
+| ![Published entries](docs/screenshots/published-filter.png) | ![Exported site](docs/screenshots/exported-site.png) |
 
 ## 🧱 Tech stack
 
