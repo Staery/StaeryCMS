@@ -3,7 +3,23 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35201.131
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StaeryCMS", "StaeryCMS.csproj", "{036CB8E8-459A-4BA6-966F-877AE7A5504F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StaeryCMS", "src\StaeryCMS\StaeryCMS.csproj", "{036CB8E8-459A-4BA6-966F-877AE7A5504F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{01FE4CFD-7B39-4020-A7FE-1914FA223E3E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StaeryCMS.Core", "src\StaeryCMS.Core\StaeryCMS.Core.csproj", "{985622B8-0DE5-4C43-B756-B5C84D7148F5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{29E4F6B5-5BF9-4E13-B0B3-19D0EDE26C16}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StaeryCMS.Core.Tests", "tests\StaeryCMS.Core.Tests\StaeryCMS.Core.Tests.csproj", "{2B95927E-BAB2-46BC-8FF8-43F2B726CD2D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{7A3C1E52-6C0B-4E1C-9F57-2B7E0F7D3A41}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		Directory.Build.props = Directory.Build.props
+		global.json = global.json
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +31,22 @@ Global
 		{036CB8E8-459A-4BA6-966F-877AE7A5504F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{036CB8E8-459A-4BA6-966F-877AE7A5504F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{036CB8E8-459A-4BA6-966F-877AE7A5504F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{985622B8-0DE5-4C43-B756-B5C84D7148F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{985622B8-0DE5-4C43-B756-B5C84D7148F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{985622B8-0DE5-4C43-B756-B5C84D7148F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{985622B8-0DE5-4C43-B756-B5C84D7148F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B95927E-BAB2-46BC-8FF8-43F2B726CD2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B95927E-BAB2-46BC-8FF8-43F2B726CD2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B95927E-BAB2-46BC-8FF8-43F2B726CD2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B95927E-BAB2-46BC-8FF8-43F2B726CD2D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{036CB8E8-459A-4BA6-966F-877AE7A5504F} = {01FE4CFD-7B39-4020-A7FE-1914FA223E3E}
+		{985622B8-0DE5-4C43-B756-B5C84D7148F5} = {01FE4CFD-7B39-4020-A7FE-1914FA223E3E}
+		{2B95927E-BAB2-46BC-8FF8-43F2B726CD2D} = {29E4F6B5-5BF9-4E13-B0B3-19D0EDE26C16}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C6C332CB-A73B-4468-8E47-E937DA85619A}
