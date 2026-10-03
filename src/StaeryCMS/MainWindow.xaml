@@ -101,7 +101,7 @@
                       HorizontalAlignment="Left"
                       Command="{Binding OpenDataFolderCommand}"
                       Content="Open data folder"
-                      Style="{StaticResource LinkButton}"
+                      Style="{StaticResource SidebarLinkButton}"
                       ToolTip="{Binding StorageLocation}" />
             </StackPanel>
           </Border>
