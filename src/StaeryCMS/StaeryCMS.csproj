@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <RootNamespace>StaeryCMS</RootNamespace>
+    <AssemblyName>StaeryCMS</AssemblyName>
+    <ApplicationIcon>Assets\staerycms.ico</ApplicationIcon>
+    <AssemblyTitle>StaeryCMS — desktop content management system</AssemblyTitle>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Resource Include="Assets\staerycms.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\StaeryCMS.Core\StaeryCMS.Core.csproj" />
+  </ItemGroup>
+
+</Project>
